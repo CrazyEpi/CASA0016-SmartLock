@@ -13,6 +13,7 @@ MG90s Servo (simulating lock/unlock movement).
 
 ## Functioning Logic
 <img width="607" height="1012" alt="image" src="https://github.com/user-attachments/assets/bae4599c-9afa-40ad-9092-f2983e4a4a7f" />
+
 This smart door lock system operates on a prioritized state-machine logic with the fingerprint sensor and the mmwave radar. Fingerprint recognition serves as the highest-priority, capable of triggering an immediate unlock or resetting the 10-second auto-lock countdown if the door is already open. Simultaneously, the mmWave radar employs a score-based algorithm to filter environmental noise or people passing by, the score will rise when movement is detected and drop when there is no movements. the system only triggers an unlock once this score hits the defined threshold of 13.
 
 ## Enclosure Iterations
