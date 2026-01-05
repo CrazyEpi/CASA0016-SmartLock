@@ -21,8 +21,8 @@ const int LED_PIN = 6;
 
 // ================= Servo Settings =================
 const int SERVO_NEUTRAL = 20;     // Idle position
-const int SERVO_PRESS_OPEN = 65;  // Unlock
-const int SERVO_PRESS_CLOSE = 65;  // Lock
+const int SERVO_PRESS_OPEN = 85;  // Unlock
+const int SERVO_PRESS_CLOSE = 85;  // Lock
 
 // ================= Thresholds =================
 const int MAX_SCORE = 20;         // Radar maximum score
