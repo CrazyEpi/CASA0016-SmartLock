@@ -26,8 +26,8 @@ const int SERVO_PRESS_CLOSE = 85;  // Lock
 
 // ================= Thresholds =================
 const int MAX_SCORE = 20;         // Radar maximum score
-const int TRIGGER_THRESHOLD = 13; // Radar activation threshold
-const int AUTO_CLOSE_DELAY = 10;  // 10s auto-lock timer
+const int TRIGGER_THRESHOLD = 14; // Radar activation threshold
+const int AUTO_CLOSE_DELAY = 20;  // 10s auto-lock timer
 const float DET_DISTANCE = 1.6;   // Radar detection meters
 
 // ================= System State =================
